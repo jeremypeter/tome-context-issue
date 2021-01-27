@@ -1,0 +1,44 @@
+uuid: 70e9135d-76bf-4019-9860-266037ab91cd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+name: test_page_specific
+label: 'TEST Page Specific'
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: "/home\r\n/node-20-page\r\n/node-21-page\r\n/node-22-page\r\n/node-23-page\r\n/node-24-page\r\n/node-25-page"
+    negate: false
+    uuid: a9555521-b697-4774-84cb-746aef4261eb
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      86aa4fe8-6b8f-4f2d-99c1-5b82f71d3f2d:
+        id: 'block_content:a06d790b-cd3b-4172-89d2-88342fe0c2e9'
+        label: 'TEST Page Specific Block'
+        provider: block_content
+        label_display: visible
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        custom_id: block_content_a06d790b_cd3b_4172_89d2_88342fe0c2e9
+        theme: bartik
+        css_class: ''
+        unique: 0
+        context_id: test_page_specific
+        uuid: 86aa4fe8-6b8f-4f2d-99c1-5b82f71d3f2d
+    id: blocks
+    saved: false
+    uuid: bf95eb4f-f264-40a8-923b-ce1d0e811571
+    include_default_blocks: 1
+weight: 0

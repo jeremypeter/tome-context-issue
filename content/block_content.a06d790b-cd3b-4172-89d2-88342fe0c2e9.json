@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "a06d790b-cd3b-4172-89d2-88342fe0c2e9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "4b9002ca-2bb9-49e3-9b1f-a884b0f21707"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2021-01-27T21:35:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "TEST Page Specific Block"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2021-01-27T22:13:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>This block should show up only on the following paths:<br \/>\r\n\/home<br \/>\r\n\/node-20-page<br \/>\r\n\/node-21-page<br \/>\r\n\/node-22-page<br \/>\r\n\/node-23-page<br \/>\r\n\/node-24-page<br \/>\r\n\/node-25-page<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ]
+}

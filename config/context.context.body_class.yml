@@ -1,0 +1,25 @@
+uuid: 530b4b4d-db3e-486b-a05e-0942995b1fb8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+name: body_class
+label: 'Body Class'
+group: null
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: '*'
+    negate: 0
+    uuid: bc0acccb-b6c8-40ef-8089-7bb5bd5c02e1
+    context_mapping: {  }
+reactions:
+  body_class:
+    id: body_class
+    body_class: woopy
+    saved: false
+weight: 0

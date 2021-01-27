@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "d23d6970-4cd8-4453-8ccb-713f93cfcecf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/4b0010bf-a897-45e8-9b93-833424bea388"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/node-42-page"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
